@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+nav {
+   background: rgba(0, 146, 70, .8); 
+   height: 13vh;
+   position: fixed;
+   top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+nav ul a {
+    padding: 20px 15px 7px 15px;
+}
+
+nav ul a:link {
+    text-decoration: none;
+    color: #ce2b37;
+}
+
+nav ul a:visited {
+    color:#ce2b37;
+    
+}
+
+nav ul a:hover {
+    border-bottom: 1px solid green;
+}
+
+nav ul a img{
+    height: 80px;
+    border-radius: 90%;
+}
+
+.active{
+    color: #ffffff;
+    border-bottom: 1px solid #ce2b37;
+}
+
+.fas {
+    padding-right: .3rem;
+}
+
+header {
+    padding: 7.5%;
+    padding-top: 25%;
+    background-color: #3c3c3c;
+    background-image: url(../img/cinqueterre.jpg);
+/*    opacity: .5;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ce2b37;
+    background-blend-mode: screen;
+}
+
+header h1{
+    text-align: center;
+    text-shadow: 2px 2px 7px #ffffff;
+
+}
+
+header p {
+    background-color: rgba(255, 255, 255,0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    color:#009246;
+/*    opacity: 1;*/
+}
+
+header a {
+    background-color: rgba(0,146,70, .6); 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 8px;
+    color: #ce2b37;
+    
+}
+
+.row{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row div {
+    width: 50%;
+    color: #ce2b37;
+    padding: 7.5%;
+}
+
+.row div h4 a:link {
+    color:#009246;
+    text-decoration: none;
+}
+.row div h4 a:visited {
+    color:#009246;
+    text-decoration: none;
+}
+
+.row div .button{
+    background-color: rgba(0,146,70, .6); 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 8px;
+    color: #ce2b37;    
+}
+
+.column{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column div {
+    width: 100%;
+    color: #ce2b37;
+    padding: 7.5%;
+}
+
+img{
+    float:left;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    color:#ce2b37;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: serif;
+    color:black;
+    font-size: 8px;
+    padding: 25px;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    color:#009246;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4{
+    font-family: 'Courgette', cursive;
+    color:#009246;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+.title{
+    margin-top: 50px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 20%;
+    border-top: 1px solid black;
+    }
+
+/*Media queries*/
+@media only screen and (max-width: 600px){
+
+.row {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
