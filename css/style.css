@@ -89,8 +89,25 @@ header a {
     padding: 10px;
     border-radius: 10px;
     font-size: 8px;
+    color: #ce2b37;  
+}
+
+.articleslink a {
+    background-color: rgba(0,146,70, .6); 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
     color: #ce2b37;
-    
+    justify-content: center;
+}
+
+.nobutton{
+     background-color: rgba(0,0,0, .0); 
+    padding: 0;
+    border-radius: 0;
+    font-size: 16px;
+    color: #ce2b37;
+    text-decoration: none
 }
 
 .row{
@@ -120,7 +137,22 @@ header a {
     padding: 10px;
     border-radius: 10px;
     font-size: 8px;
-    color: #ce2b37;    
+    color: #ce2b37;
+}
+
+.row div p {
+display: inline-block;
+height: 20px;
+}
+
+div p {
+    color:#ce2b37;
+    text-decoration: none;
+}
+
+div p a:visited{
+    color:#009246;
+    text-decoration: none;
 }
 
 .column{
@@ -195,5 +227,11 @@ footer{
     flex-direction: column;
     align-items: center;
     }
+    
+header {
+    padding: 7.5%;
+    padding-top: 30%;
+}
+    
 }
 
